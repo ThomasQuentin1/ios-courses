@@ -10,17 +10,20 @@ import SwiftUICharts
 
 struct LandmarkList: View {
     var body: some View {
-        
+        VStack{
         NavigationView {
             List(landmarkData) { landmark in
                 NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
                     LineChartView(data: landmark.graphs.value, title: landmark.name, legend: landmark.price)
-//                    LandmarkRow(landmark: landmark)
+                    //                    LandmarkRow(landmark: landmark)
                 }
             }
             .navigationBarTitle(Text("Cryptos"))
-        }
+            
+        }.padding(.top, -100)
         
+        
+        }
     }
 }
 
