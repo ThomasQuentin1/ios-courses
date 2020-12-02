@@ -13,7 +13,7 @@ struct LandmarkDetail: View {
     
     var body: some View {
         VStack {
-            LineChartView(data: self.landmark.graphs.value, title: self.landmark.name, legend: self.landmark.price, form: ChartForm.large)
+            LineChartView(data: self.landmark.graphs.value, title: self.landmark.name, legend: self.landmark.price, form: ChartForm.extraLarge)
             
             VStack(alignment: .leading) {
                 Text(landmark.name)
