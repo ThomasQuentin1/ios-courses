@@ -34,7 +34,8 @@ struct Login: View {
                 }.padding([.leading, .trailing], 27.5)
                 
                 Button(action: {
-                    
+                    self.actionState = .readyForPush
+
                     if (login == "A" && pwd == "a") {
                         self.actionState = .readyForPush
                         

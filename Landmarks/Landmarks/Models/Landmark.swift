@@ -14,6 +14,13 @@ struct Landmark: Hashable, Codable, Identifiable {
     fileprivate var imageName: String
     var price: String
     var graphs : GraphData
+    var marketCap : String
+    var low : String
+    var high : String
+    var volume : String
+    var tag : String
+    var circulating : String
+    var evolution : String
 }
 
 extension Landmark {
