@@ -47,14 +47,13 @@ import SwiftUICharts
 
 struct LandmarkList: View {
     var body: some View {
-        VStack (alignment: .leading) {
-            Text("Cryptos").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             List(landmarkData){ landmark in
                 NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
                     LandmarkRow(landmark: landmark)
                 }
-            }.navigationTitle(Text("blbl"))
-        }
+            }
+            .navigationBarTitle("Cryptos")
+             .navigationBarHidden(false)
     }
 }
 
