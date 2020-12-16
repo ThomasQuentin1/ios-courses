@@ -8,9 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		2944FEE72575669B008DF8D1 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2944FEE62575669B008DF8D1 /* SwiftUICharts */; };
+		29AF374A257E894800704312 /* logoETH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AF3747257E894800704312 /* logoETH.jpg */; };
+		29AF374B257E894800704312 /* logoBTC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AF3748257E894800704312 /* logoBTC.jpg */; };
+		29AF374C257E894800704312 /* logoMONERO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AF3749257E894800704312 /* logoMONERO.jpg */; };
+		29BF9FF82588EDFD006B82DE /* Buy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF9FF72588EDFD006B82DE /* Buy.swift */; };
+		29BF9FFB2588F4DD006B82DE /* Sell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF9FFA2588F4DD006B82DE /* Sell.swift */; };
+		29BFA0002588F5ED006B82DE /* logoBTCPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BF9FFD2588F5EC006B82DE /* logoBTCPNG.png */; };
+		29BFA0022588F5ED006B82DE /* logoMoneroPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BF9FFF2588F5EC006B82DE /* logoMoneroPNG.png */; };
+		29BFA0052588F63B006B82DE /* logoETHPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BFA0042588F63B006B82DE /* logoETHPNG.png */; };
 		29EB51902576753F003ECDCC /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB518F2576753F003ECDCC /* login.swift */; };
 		29EB519325767C02003ECDCC /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB519225767C02003ECDCC /* menu.swift */; };
 		29EB519625767CB7003ECDCC /* profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB519525767CB7003ECDCC /* profil.swift */; };
+		29EE28AA258A27D1007E58B0 /* OneSignalNotification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 29EE28A3258A27D1007E58B0 /* OneSignalNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		29EE28B3258A28A0007E58B0 /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = 29EE28B2258A28A0007E58B0 /* OneSignal */; };
+		29EE28C1258A30F2007E58B0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29EE28C3258A30F2007E58B0 /* Localizable.strings */; };
+		29EE28D3258A4AD1007E58B0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EE28A5258A27D1007E58B0 /* NotificationService.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
 		B7394868229F194000C47603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394867229F194000C47603 /* SceneDelegate.swift */; };
 		B739486A229F194000C47603 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394869229F194000C47603 /* LandmarkDetail.swift */; };
@@ -20,28 +32,57 @@
 		B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394879229F1B3F00C47603 /* CircleImage.swift */; };
 		B7394881229F28B900C47603 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B739487F229F28B900C47603 /* Landmark.swift */; };
 		B7394882229F28B900C47603 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394880229F28B900C47603 /* Data.swift */; };
-		B7394891229F292F00C47603 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394884229F292D00C47603 /* rainbowlake.jpg */; };
-		B7394892229F292F00C47603 /* yukon_charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394885229F292D00C47603 /* yukon_charleyrivers.jpg */; };
-		B7394893229F292F00C47603 /* icybay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394886229F292E00C47603 /* icybay.jpg */; };
-		B7394894229F292F00C47603 /* lakemcdonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394887229F292E00C47603 /* lakemcdonald.jpg */; };
-		B7394895229F292F00C47603 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394888229F292E00C47603 /* turtlerock.jpg */; };
-		B7394896229F292F00C47603 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394889229F292E00C47603 /* umbagog.jpg */; };
-		B7394897229F292F00C47603 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B739488A229F292E00C47603 /* hiddenlake.jpg */; };
-		B7394898229F292F00C47603 /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B739488B229F292E00C47603 /* stmarylake.jpg */; };
-		B7394899229F292F00C47603 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B739488C229F292E00C47603 /* twinlake.jpg */; };
-		B739489A229F292F00C47603 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B739488D229F292E00C47603 /* silversalmoncreek.jpg */; };
 		B739489B229F292F00C47603 /* CryptoData.json in Resources */ = {isa = PBXBuildFile; fileRef = B739488E229F292E00C47603 /* CryptoData.json */; };
-		B739489C229F292F00C47603 /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B739488F229F292F00C47603 /* chincoteague.jpg */; };
-		B739489D229F292F00C47603 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394890229F292F00C47603 /* chilkoottrail.jpg */; };
 		B739489F229F2D9700C47603 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B739489E229F2D9700C47603 /* LandmarkRow.swift */; };
 		B73948A1229F2E1F00C47603 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73948A0229F2E1F00C47603 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		29EE28A8258A27D1007E58B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B739485A229F194000C47603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29EE28A2258A27D1007E58B0;
+			remoteInfo = OneSignalNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29EE28AB258A27D1007E58B0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				29EE28AA258A27D1007E58B0 /* OneSignalNotification.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		29AF3747257E894800704312 /* logoETH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoETH.jpg; path = ../../../../../../../Downloads/logoETH.jpg; sourceTree = "<group>"; };
+		29AF3748257E894800704312 /* logoBTC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoBTC.jpg; path = ../../../../../../../Downloads/logoBTC.jpg; sourceTree = "<group>"; };
+		29AF3749257E894800704312 /* logoMONERO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoMONERO.jpg; path = ../../../../../../../Downloads/logoMONERO.jpg; sourceTree = "<group>"; };
+		29AF374E257E912B00704312 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		29BF9FF72588EDFD006B82DE /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
+		29BF9FFA2588F4DD006B82DE /* Sell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sell.swift; sourceTree = "<group>"; };
+		29BF9FFD2588F5EC006B82DE /* logoBTCPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoBTCPNG.png; path = ../../../../../../../Downloads/logoBTCPNG.png; sourceTree = "<group>"; };
+		29BF9FFF2588F5EC006B82DE /* logoMoneroPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoMoneroPNG.png; path = ../../../../../../../Downloads/logoMoneroPNG.png; sourceTree = "<group>"; };
+		29BFA0042588F63B006B82DE /* logoETHPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoETHPNG.png; path = ../../../../../../../Downloads/logoETHPNG.png; sourceTree = "<group>"; };
 		29EB518F2576753F003ECDCC /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		29EB519225767C02003ECDCC /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
 		29EB519525767CB7003ECDCC /* profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profil.swift; sourceTree = "<group>"; };
-		B7394862229F194000C47603 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EE28A3258A27D1007E58B0 /* OneSignalNotification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EE28A5258A27D1007E58B0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		29EE28A7258A27D1007E58B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EE28B6258A28EA007E58B0 /* IOS-COURSES.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IOS-COURSES.entitlements"; sourceTree = "<group>"; };
+		29EE28B9258A3038007E58B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		29EE28C2258A30F2007E58B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29EE28C6258A3138007E58B0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29EE28C7258A3138007E58B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B7394862229F194000C47603 /* IOS-COURSES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-COURSES.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7394865229F194000C47603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7394867229F194000C47603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B7394869229F194000C47603 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
@@ -52,19 +93,7 @@
 		B7394879229F1B3F00C47603 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		B739487F229F28B900C47603 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		B7394880229F28B900C47603 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		B7394884229F292D00C47603 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
-		B7394885229F292D00C47603 /* yukon_charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yukon_charleyrivers.jpg; sourceTree = "<group>"; };
-		B7394886229F292E00C47603 /* icybay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icybay.jpg; sourceTree = "<group>"; };
-		B7394887229F292E00C47603 /* lakemcdonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakemcdonald.jpg; sourceTree = "<group>"; };
-		B7394888229F292E00C47603 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
-		B7394889229F292E00C47603 /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
-		B739488A229F292E00C47603 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
-		B739488B229F292E00C47603 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
-		B739488C229F292E00C47603 /* twinlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twinlake.jpg; sourceTree = "<group>"; };
-		B739488D229F292E00C47603 /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
 		B739488E229F292E00C47603 /* CryptoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CryptoData.json; sourceTree = "<group>"; };
-		B739488F229F292F00C47603 /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
-		B7394890229F292F00C47603 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		B739489E229F2D9700C47603 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = "Supporting Views/LandmarkRow.swift"; sourceTree = "<group>"; };
 		B73948A0229F2E1F00C47603 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		C4E4AAA0C4E4035000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -72,11 +101,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		29EE28A0258A27D1007E58B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B739485F229F194000C47603 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2944FEE72575669B008DF8D1 /* SwiftUICharts in Frameworks */,
+				29EE28B3258A28A0007E58B0 /* OneSignal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,9 +128,28 @@
 			name = Configuration;
 			sourceTree = "<group>";
 		};
+		29EE28A4258A27D1007E58B0 /* OneSignalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				29EE28A5258A27D1007E58B0 /* NotificationService.swift */,
+				29EE28A7258A27D1007E58B0 /* Info.plist */,
+			);
+			path = OneSignalNotification;
+			sourceTree = "<group>";
+		};
+		29EE28BA258A3073007E58B0 /* localization */ = {
+			isa = PBXGroup;
+			children = (
+				29EE28C3258A30F2007E58B0 /* Localizable.strings */,
+			);
+			path = localization;
+			sourceTree = "<group>";
+		};
 		B7394859229F194000C47603 = {
 			isa = PBXGroup;
 			children = (
+				29EE28A4258A27D1007E58B0 /* OneSignalNotification */,
+				29EE28B6258A28EA007E58B0 /* IOS-COURSES.entitlements */,
 				C4E4AAA0C4E4035000000001 /* README.md */,
 				B7394864229F194000C47603 /* Landmarks */,
 				B7394863229F194000C47603 /* Products */,
@@ -104,7 +160,8 @@
 		B7394863229F194000C47603 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7394862229F194000C47603 /* Landmarks.app */,
+				B7394862229F194000C47603 /* IOS-COURSES.app */,
+				29EE28A3258A27D1007E58B0 /* OneSignalNotification.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,14 +169,17 @@
 		B7394864229F194000C47603 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				29EE28BA258A3073007E58B0 /* localization */,
 				B739487E229F282200C47603 /* Models */,
 				B7394865229F194000C47603 /* AppDelegate.swift */,
 				B7394867229F194000C47603 /* SceneDelegate.swift */,
 				B73948A0229F2E1F00C47603 /* LandmarkList.swift */,
+				29BF9FF72588EDFD006B82DE /* Buy.swift */,
 				29EB519225767C02003ECDCC /* menu.swift */,
 				29EB519525767CB7003ECDCC /* profil.swift */,
 				B739489E229F2D9700C47603 /* LandmarkRow.swift */,
 				B7394869229F194000C47603 /* LandmarkDetail.swift */,
+				29BF9FFA2588F4DD006B82DE /* Sell.swift */,
 				B739487D229F1C0100C47603 /* Supporting Views */,
 				B7394883229F291A00C47603 /* Resources */,
 				B739486B229F194200C47603 /* Assets.xcassets */,
@@ -159,19 +219,13 @@
 		B7394883229F291A00C47603 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				29BF9FFD2588F5EC006B82DE /* logoBTCPNG.png */,
+				29BFA0042588F63B006B82DE /* logoETHPNG.png */,
+				29BF9FFF2588F5EC006B82DE /* logoMoneroPNG.png */,
+				29AF3748257E894800704312 /* logoBTC.jpg */,
+				29AF3747257E894800704312 /* logoETH.jpg */,
+				29AF3749257E894800704312 /* logoMONERO.jpg */,
 				B739488E229F292E00C47603 /* CryptoData.json */,
-				B7394890229F292F00C47603 /* chilkoottrail.jpg */,
-				B739488F229F292F00C47603 /* chincoteague.jpg */,
-				B739488A229F292E00C47603 /* hiddenlake.jpg */,
-				B7394886229F292E00C47603 /* icybay.jpg */,
-				B7394887229F292E00C47603 /* lakemcdonald.jpg */,
-				B7394884229F292D00C47603 /* rainbowlake.jpg */,
-				B739488D229F292E00C47603 /* silversalmoncreek.jpg */,
-				B739488B229F292E00C47603 /* stmarylake.jpg */,
-				B7394888229F292E00C47603 /* turtlerock.jpg */,
-				B739488C229F292E00C47603 /* twinlake.jpg */,
-				B7394889229F292E00C47603 /* umbagog.jpg */,
-				B7394885229F292D00C47603 /* yukon_charleyrivers.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -179,24 +233,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7394861229F194000C47603 /* Landmarks */ = {
+		29EE28A2258A27D1007E58B0 /* OneSignalNotification */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7394876229F194200C47603 /* Build configuration list for PBXNativeTarget "Landmarks" */;
+			buildConfigurationList = 29EE28AE258A27D1007E58B0 /* Build configuration list for PBXNativeTarget "OneSignalNotification" */;
 			buildPhases = (
-				B739485E229F194000C47603 /* Sources */,
-				B739485F229F194000C47603 /* Frameworks */,
-				B7394860229F194000C47603 /* Resources */,
+				29EE289F258A27D1007E58B0 /* Sources */,
+				29EE28A0258A27D1007E58B0 /* Frameworks */,
+				29EE28A1258A27D1007E58B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Landmarks;
+			name = OneSignalNotification;
+			productName = OneSignalNotification;
+			productReference = 29EE28A3258A27D1007E58B0 /* OneSignalNotification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B7394861229F194000C47603 /* IOS-COURSES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7394876229F194200C47603 /* Build configuration list for PBXNativeTarget "IOS-COURSES" */;
+			buildPhases = (
+				B739485E229F194000C47603 /* Sources */,
+				B739485F229F194000C47603 /* Frameworks */,
+				B7394860229F194000C47603 /* Resources */,
+				29EE28AB258A27D1007E58B0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29EE28A9258A27D1007E58B0 /* PBXTargetDependency */,
+			);
+			name = "IOS-COURSES";
 			packageProductDependencies = (
 				2944FEE62575669B008DF8D1 /* SwiftUICharts */,
+				29EE28B2258A28A0007E58B0 /* OneSignal */,
 			);
 			productName = Landmarks;
-			productReference = B7394862229F194000C47603 /* Landmarks.app */;
+			productReference = B7394862229F194000C47603 /* IOS-COURSES.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -205,68 +279,88 @@
 		B739485A229F194000C47603 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				DefaultBuildSystemTypeForWorkspace = Latest;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
+					29EE28A2258A27D1007E58B0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					B7394861229F194000C47603 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = B739485D229F194000C47603 /* Build configuration list for PBXProject "BuildingListsAndNavigation" */;
+			buildConfigurationList = B739485D229F194000C47603 /* Build configuration list for PBXProject "IOS-courses" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				de,
 			);
 			mainGroup = B7394859229F194000C47603;
 			packageReferences = (
 				2944FEE52575669B008DF8D1 /* XCRemoteSwiftPackageReference "ChartView" */,
+				29EE28B1258A28A0007E58B0 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
 			);
 			productRefGroup = B7394863229F194000C47603 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7394861229F194000C47603 /* Landmarks */,
+				B7394861229F194000C47603 /* IOS-COURSES */,
+				29EE28A2258A27D1007E58B0 /* OneSignalNotification */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		29EE28A1258A27D1007E58B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7394860229F194000C47603 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B739489A229F292F00C47603 /* silversalmoncreek.jpg in Resources */,
-				B7394894229F292F00C47603 /* lakemcdonald.jpg in Resources */,
+				29BFA0002588F5ED006B82DE /* logoBTCPNG.png in Resources */,
 				B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */,
-				B7394891229F292F00C47603 /* rainbowlake.jpg in Resources */,
 				B739486F229F194200C47603 /* Preview Assets.xcassets in Resources */,
-				B7394895229F292F00C47603 /* turtlerock.jpg in Resources */,
 				B739486C229F194200C47603 /* Assets.xcassets in Resources */,
-				B7394899229F292F00C47603 /* twinlake.jpg in Resources */,
-				B7394896229F292F00C47603 /* umbagog.jpg in Resources */,
-				B739489D229F292F00C47603 /* chilkoottrail.jpg in Resources */,
-				B739489C229F292F00C47603 /* chincoteague.jpg in Resources */,
+				29AF374A257E894800704312 /* logoETH.jpg in Resources */,
+				29AF374C257E894800704312 /* logoMONERO.jpg in Resources */,
 				B739489B229F292F00C47603 /* CryptoData.json in Resources */,
-				B7394893229F292F00C47603 /* icybay.jpg in Resources */,
-				B7394897229F292F00C47603 /* hiddenlake.jpg in Resources */,
-				B7394898229F292F00C47603 /* stmarylake.jpg in Resources */,
-				B7394892229F292F00C47603 /* yukon_charleyrivers.jpg in Resources */,
+				29BFA0022588F5ED006B82DE /* logoMoneroPNG.png in Resources */,
+				29EE28C1258A30F2007E58B0 /* Localizable.strings in Resources */,
+				29AF374B257E894800704312 /* logoBTC.jpg in Resources */,
+				29BFA0052588F63B006B82DE /* logoETHPNG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		29EE289F258A27D1007E58B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EE28D3258A4AD1007E58B0 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B739485E229F194000C47603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BF9FF82588EDFD006B82DE /* Buy.swift in Sources */,
 				29EB519325767C02003ECDCC /* menu.swift in Sources */,
+				29BF9FFB2588F4DD006B82DE /* Sell.swift in Sources */,
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
@@ -282,11 +376,31 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		29EE28A9258A27D1007E58B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29EE28A2258A27D1007E58B0 /* OneSignalNotification */;
+			targetProxy = 29EE28A8258A27D1007E58B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		29EE28C3258A30F2007E58B0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29EE28C2258A30F2007E58B0 /* en */,
+				29EE28C6258A3138007E58B0 /* fr */,
+				29EE28C7258A3138007E58B0 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B7394870229F194200C47603 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B7394871229F194200C47603 /* Base */,
+				29AF374E257E912B00704312 /* fr */,
+				29EE28B9258A3038007E58B0 /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -294,11 +408,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		29EE28AC258A27D1007E58B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUATCS674Z;
+				INFOPLIST_FILE = OneSignalNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29EE28AD258A27D1007E58B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUATCS674Z;
+				INFOPLIST_FILE = OneSignalNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B7394874229F194200C47603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB75835CADF255844DAD0DAD /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -361,6 +518,7 @@
 			baseConfigurationReference = FB75835CADF255844DAD0DAD /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -416,7 +574,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB75835CADF255844DAD0DAD /* SampleCode.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "IOS-COURSES.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Landmarks/Preview\\ Content";
 				DEVELOPMENT_TEAM = YUATCS674Z;
@@ -426,7 +587,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Landmarks${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -438,7 +599,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB75835CADF255844DAD0DAD /* SampleCode.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "IOS-COURSES.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Landmarks/Preview\\ Content";
 				DEVELOPMENT_TEAM = YUATCS674Z;
@@ -448,7 +612,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Landmarks${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -459,7 +623,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B739485D229F194000C47603 /* Build configuration list for PBXProject "BuildingListsAndNavigation" */ = {
+		29EE28AE258A27D1007E58B0 /* Build configuration list for PBXNativeTarget "OneSignalNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EE28AC258A27D1007E58B0 /* Debug */,
+				29EE28AD258A27D1007E58B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B739485D229F194000C47603 /* Build configuration list for PBXProject "IOS-courses" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7394874229F194200C47603 /* Debug */,
@@ -468,7 +641,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7394876229F194200C47603 /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
+		B7394876229F194200C47603 /* Build configuration list for PBXNativeTarget "IOS-COURSES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7394877229F194200C47603 /* Debug */,
@@ -488,6 +661,14 @@
 				kind = branch;
 			};
 		};
+		29EE28B1258A28A0007E58B0 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -495,6 +676,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2944FEE52575669B008DF8D1 /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
+		};
+		29EE28B2258A28A0007E58B0 /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29EE28B1258A28A0007E58B0 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignal;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

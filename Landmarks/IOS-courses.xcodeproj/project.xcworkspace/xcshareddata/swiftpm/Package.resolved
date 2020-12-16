@@ -9,6 +9,15 @@
           "revision": "08f0053b164f05ccbdb7153b1b3b10b565e8f1f1",
           "version": null
         }
+      },
+      {
+        "package": "OneSignal",
+        "repositoryURL": "https://github.com/OneSignal/OneSignal-iOS-SDK",
+        "state": {
+          "branch": null,
+          "revision": "fe0d439c1f4a45a0b6be8624b2005a1c6bce60d0",
+          "version": "3.0.0"
+        }
       }
     ]
   },

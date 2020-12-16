@@ -14,12 +14,10 @@ struct menu: View {
             LandmarkList()
                 .tabItem {
                     Image(systemName: "bitcoinsign.circle.fill")
-                    Text("First Tab")
                 }
             profil()
                 .tabItem {
                     Image(systemName: "person.circle.fill")
-                    Text("Second Tab")
                 }
             
         }.navigationBarBackButtonHidden(true)

@@ -15,7 +15,9 @@ struct Login: View {
     @State private var login: String = ""
     @State private var pwd: String = ""
     @State private var actionState: ActionState? = .setup
-    
+    let goal: LocalizedStringKey = "helloworld"
+    let cap2:LocalizedStringKey = "helloworld"
+
     var body: some View {
         
         NavigationView {
@@ -24,6 +26,10 @@ struct Login: View {
                 }
                 
                 VStack(alignment: .leading, spacing: 15) {
+                    
+                    Text(LocalizedStringKey("password"))
+                    Text(NSLocalizedString("password", comment: ""))
+                    Text(cap2)
                     TextField("Email", text: self.$login)
                         .padding()
                         .cornerRadius(20.0)
@@ -34,7 +40,8 @@ struct Login: View {
                 }.padding([.leading, .trailing], 27.5)
                 
                 Button(action: {
-                    
+                    self.actionState = .readyForPush
+
                     if (login == "A" && pwd == "a") {
                         self.actionState = .readyForPush
                         
@@ -58,6 +65,9 @@ struct Login: View {
 
 struct Login_Previews: PreviewProvider {
     static var previews: some View {
-        Login()
+        ForEach(["en", "fr"], id: \.self) { id in
+            Login()
+                .environment(\.locale, .init(identifier: id))
+        }
     }
 }
