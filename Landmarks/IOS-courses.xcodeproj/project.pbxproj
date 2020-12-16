@@ -19,9 +19,10 @@
 		29EB51902576753F003ECDCC /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB518F2576753F003ECDCC /* login.swift */; };
 		29EB519325767C02003ECDCC /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB519225767C02003ECDCC /* menu.swift */; };
 		29EB519625767CB7003ECDCC /* profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB519525767CB7003ECDCC /* profil.swift */; };
-		29EE28A6258A27D1007E58B0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EE28A5258A27D1007E58B0 /* NotificationService.swift */; };
 		29EE28AA258A27D1007E58B0 /* OneSignalNotification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 29EE28A3258A27D1007E58B0 /* OneSignalNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		29EE28B3258A28A0007E58B0 /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = 29EE28B2258A28A0007E58B0 /* OneSignal */; };
+		29EE28C1258A30F2007E58B0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29EE28C3258A30F2007E58B0 /* Localizable.strings */; };
+		29EE28D3258A4AD1007E58B0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EE28A5258A27D1007E58B0 /* NotificationService.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
 		B7394868229F194000C47603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394867229F194000C47603 /* SceneDelegate.swift */; };
 		B739486A229F194000C47603 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394869229F194000C47603 /* LandmarkDetail.swift */; };
@@ -65,7 +66,6 @@
 		29AF3748257E894800704312 /* logoBTC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoBTC.jpg; path = ../../../../../../../Downloads/logoBTC.jpg; sourceTree = "<group>"; };
 		29AF3749257E894800704312 /* logoMONERO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoMONERO.jpg; path = ../../../../../../../Downloads/logoMONERO.jpg; sourceTree = "<group>"; };
 		29AF374E257E912B00704312 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		29AF3750257E916500704312 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		29BF9FF72588EDFD006B82DE /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
 		29BF9FFA2588F4DD006B82DE /* Sell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sell.swift; sourceTree = "<group>"; };
 		29BF9FFD2588F5EC006B82DE /* logoBTCPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoBTCPNG.png; path = ../../../../../../../Downloads/logoBTCPNG.png; sourceTree = "<group>"; };
@@ -78,6 +78,10 @@
 		29EE28A5258A27D1007E58B0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		29EE28A7258A27D1007E58B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EE28B6258A28EA007E58B0 /* IOS-COURSES.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IOS-COURSES.entitlements"; sourceTree = "<group>"; };
+		29EE28B9258A3038007E58B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		29EE28C2258A30F2007E58B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29EE28C6258A3138007E58B0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29EE28C7258A3138007E58B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* IOS-COURSES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-COURSES.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7394865229F194000C47603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7394867229F194000C47603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,13 +137,21 @@
 			path = OneSignalNotification;
 			sourceTree = "<group>";
 		};
+		29EE28BA258A3073007E58B0 /* localization */ = {
+			isa = PBXGroup;
+			children = (
+				29EE28C3258A30F2007E58B0 /* Localizable.strings */,
+			);
+			path = localization;
+			sourceTree = "<group>";
+		};
 		B7394859229F194000C47603 = {
 			isa = PBXGroup;
 			children = (
+				29EE28A4258A27D1007E58B0 /* OneSignalNotification */,
 				29EE28B6258A28EA007E58B0 /* IOS-COURSES.entitlements */,
 				C4E4AAA0C4E4035000000001 /* README.md */,
 				B7394864229F194000C47603 /* Landmarks */,
-				29EE28A4258A27D1007E58B0 /* OneSignalNotification */,
 				B7394863229F194000C47603 /* Products */,
 				0BA6BB22EC06EFBEA60A948C /* Configuration */,
 			);
@@ -157,6 +169,7 @@
 		B7394864229F194000C47603 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				29EE28BA258A3073007E58B0 /* localization */,
 				B739487E229F282200C47603 /* Models */,
 				B7394865229F194000C47603 /* AppDelegate.swift */,
 				B7394867229F194000C47603 /* SceneDelegate.swift */,
@@ -279,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B739485D229F194000C47603 /* Build configuration list for PBXProject "BuildingListsAndNavigation" */;
+			buildConfigurationList = B739485D229F194000C47603 /* Build configuration list for PBXProject "IOS-courses" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -324,6 +337,7 @@
 				29AF374C257E894800704312 /* logoMONERO.jpg in Resources */,
 				B739489B229F292F00C47603 /* CryptoData.json in Resources */,
 				29BFA0022588F5ED006B82DE /* logoMoneroPNG.png in Resources */,
+				29EE28C1258A30F2007E58B0 /* Localizable.strings in Resources */,
 				29AF374B257E894800704312 /* logoBTC.jpg in Resources */,
 				29BFA0052588F63B006B82DE /* logoETHPNG.png in Resources */,
 			);
@@ -336,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29EE28A6258A27D1007E58B0 /* NotificationService.swift in Sources */,
+				29EE28D3258A4AD1007E58B0 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,12 +385,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		29EE28C3258A30F2007E58B0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29EE28C2258A30F2007E58B0 /* en */,
+				29EE28C6258A3138007E58B0 /* fr */,
+				29EE28C7258A3138007E58B0 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B7394870229F194200C47603 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B7394871229F194200C47603 /* Base */,
 				29AF374E257E912B00704312 /* fr */,
-				29AF3750257E916500704312 /* de */,
+				29EE28B9258A3038007E58B0 /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -397,7 +421,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1.OneSignalNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -418,7 +442,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1.OneSignalNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -608,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B739485D229F194000C47603 /* Build configuration list for PBXProject "BuildingListsAndNavigation" */ = {
+		B739485D229F194000C47603 /* Build configuration list for PBXProject "IOS-courses" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7394874229F194200C47603 /* Debug */,
