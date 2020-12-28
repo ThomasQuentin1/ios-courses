@@ -10,6 +10,10 @@ import SwiftUI
 import CoreLocation
 
 let landmarkData: [Landmark] = load("CryptoData.json")
+let profilData: dataProfil = load("ProfilData.json")
+let historyData: [History] = load("History.json")
+let actualCryptoData: [ActualCrypto] = load("ActualCrypto.json")
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

@@ -1,0 +1,44 @@
+[{
+        "id": 1,
+        "name": "BTC",
+        "quantity": "12",
+        "imageName": "logoBTCPNG",
+        "value" :"33827€"
+    },
+    {
+        "id": 2,
+        "name": "ETH",
+        "quantity": "3",
+        "imageName": "logoETHPNG",
+        "value" :"3221€"
+    },
+    {
+        "id": 3,
+        "name": "MONERO",
+        "quantity": "31",
+        "imageName": "logoMoneroPNG",
+        "value" :"321€"
+    },
+    {
+            "id": 1,
+            "name": "BTC",
+            "quantity": "12",
+            "imageName": "logoBTCPNG",
+            "value" :"33827€"
+        },
+        {
+            "id": 2,
+            "name": "ETH",
+            "quantity": "3",
+            "imageName": "logoETHPNG",
+            "value" :"3221€"
+        },
+        {
+            "id": 3,
+            "name": "MONERO",
+            "quantity": "31",
+            "imageName": "logoMoneroPNG",
+            "value" :"321€"
+        }
+
+]

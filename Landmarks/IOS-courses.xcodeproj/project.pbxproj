@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290BABF0259A008100058D5A /* profilPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 290BABEF259A008100058D5A /* profilPicture.png */; };
+		290BABFA259A065B00058D5A /* profilData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BABF9259A065B00058D5A /* profilData.swift */; };
+		290BAC0C259A0AD400058D5A /* ProfilData.json in Resources */ = {isa = PBXBuildFile; fileRef = 290BAC0B259A0AD400058D5A /* ProfilData.json */; };
+		290BAC10259A175300058D5A /* history.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BAC0F259A175300058D5A /* history.swift */; };
+		290BAC14259A17D100058D5A /* History.json in Resources */ = {isa = PBXBuildFile; fileRef = 290BAC13259A17D100058D5A /* History.json */; };
+		290BAC18259A17D900058D5A /* ActualCrypto.json in Resources */ = {isa = PBXBuildFile; fileRef = 290BAC17259A17D900058D5A /* ActualCrypto.json */; };
+		290BAC1C259A187C00058D5A /* ActualCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BAC1B259A187C00058D5A /* ActualCrypto.swift */; };
+		290BAC20259A238500058D5A /* HistoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BAC1F259A238500058D5A /* HistoryRow.swift */; };
+		290BAC24259A23AF00058D5A /* ActualRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BAC23259A23AF00058D5A /* ActualRow.swift */; };
 		2944FEE72575669B008DF8D1 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2944FEE62575669B008DF8D1 /* SwiftUICharts */; };
 		29AF374A257E894800704312 /* logoETH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AF3747257E894800704312 /* logoETH.jpg */; };
 		29AF374B257E894800704312 /* logoBTC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AF3748257E894800704312 /* logoBTC.jpg */; };
@@ -62,6 +71,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		290BABEF259A008100058D5A /* profilPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profilPicture.png; path = ../../../../../../../Downloads/profilPicture.png; sourceTree = "<group>"; };
+		290BABF9259A065B00058D5A /* profilData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilData.swift; sourceTree = "<group>"; };
+		290BAC0B259A0AD400058D5A /* ProfilData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProfilData.json; sourceTree = "<group>"; };
+		290BAC0F259A175300058D5A /* history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = history.swift; sourceTree = "<group>"; };
+		290BAC13259A17D100058D5A /* History.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = History.json; sourceTree = "<group>"; };
+		290BAC17259A17D900058D5A /* ActualCrypto.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ActualCrypto.json; sourceTree = "<group>"; };
+		290BAC1B259A187C00058D5A /* ActualCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualCrypto.swift; sourceTree = "<group>"; };
+		290BAC1F259A238500058D5A /* HistoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRow.swift; sourceTree = "<group>"; };
+		290BAC23259A23AF00058D5A /* ActualRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRow.swift; sourceTree = "<group>"; };
 		29AF3747257E894800704312 /* logoETH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoETH.jpg; path = ../../../../../../../Downloads/logoETH.jpg; sourceTree = "<group>"; };
 		29AF3748257E894800704312 /* logoBTC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoBTC.jpg; path = ../../../../../../../Downloads/logoBTC.jpg; sourceTree = "<group>"; };
 		29AF3749257E894800704312 /* logoMONERO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoMONERO.jpg; path = ../../../../../../../Downloads/logoMONERO.jpg; sourceTree = "<group>"; };
@@ -178,6 +196,8 @@
 				29EB519225767C02003ECDCC /* menu.swift */,
 				29EB519525767CB7003ECDCC /* profil.swift */,
 				B739489E229F2D9700C47603 /* LandmarkRow.swift */,
+				290BAC1F259A238500058D5A /* HistoryRow.swift */,
+				290BAC23259A23AF00058D5A /* ActualRow.swift */,
 				B7394869229F194000C47603 /* LandmarkDetail.swift */,
 				29BF9FFA2588F4DD006B82DE /* Sell.swift */,
 				B739487D229F1C0100C47603 /* Supporting Views */,
@@ -212,6 +232,9 @@
 			children = (
 				B7394880229F28B900C47603 /* Data.swift */,
 				B739487F229F28B900C47603 /* Landmark.swift */,
+				290BABF9259A065B00058D5A /* profilData.swift */,
+				290BAC0F259A175300058D5A /* history.swift */,
+				290BAC1B259A187C00058D5A /* ActualCrypto.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,9 +245,13 @@
 				29BF9FFD2588F5EC006B82DE /* logoBTCPNG.png */,
 				29BFA0042588F63B006B82DE /* logoETHPNG.png */,
 				29BF9FFF2588F5EC006B82DE /* logoMoneroPNG.png */,
+				290BABEF259A008100058D5A /* profilPicture.png */,
 				29AF3748257E894800704312 /* logoBTC.jpg */,
 				29AF3747257E894800704312 /* logoETH.jpg */,
 				29AF3749257E894800704312 /* logoMONERO.jpg */,
+				290BAC13259A17D100058D5A /* History.json */,
+				290BAC17259A17D900058D5A /* ActualCrypto.json */,
+				290BAC0B259A0AD400058D5A /* ProfilData.json */,
 				B739488E229F292E00C47603 /* CryptoData.json */,
 			);
 			path = Resources;
@@ -333,10 +360,14 @@
 				B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */,
 				B739486F229F194200C47603 /* Preview Assets.xcassets in Resources */,
 				B739486C229F194200C47603 /* Assets.xcassets in Resources */,
+				290BAC14259A17D100058D5A /* History.json in Resources */,
 				29AF374A257E894800704312 /* logoETH.jpg in Resources */,
 				29AF374C257E894800704312 /* logoMONERO.jpg in Resources */,
 				B739489B229F292F00C47603 /* CryptoData.json in Resources */,
+				290BAC18259A17D900058D5A /* ActualCrypto.json in Resources */,
+				290BAC0C259A0AD400058D5A /* ProfilData.json in Resources */,
 				29BFA0022588F5ED006B82DE /* logoMoneroPNG.png in Resources */,
+				290BABF0259A008100058D5A /* profilPicture.png in Resources */,
 				29EE28C1258A30F2007E58B0 /* Localizable.strings in Resources */,
 				29AF374B257E894800704312 /* logoBTC.jpg in Resources */,
 				29BFA0052588F63B006B82DE /* logoETHPNG.png in Resources */,
@@ -366,7 +397,12 @@
 				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
 				B73948A1229F2E1F00C47603 /* LandmarkList.swift in Sources */,
 				29EB51902576753F003ECDCC /* login.swift in Sources */,
+				290BAC24259A23AF00058D5A /* ActualRow.swift in Sources */,
+				290BAC1C259A187C00058D5A /* ActualCrypto.swift in Sources */,
+				290BABFA259A065B00058D5A /* profilData.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
+				290BAC20259A238500058D5A /* HistoryRow.swift in Sources */,
+				290BAC10259A175300058D5A /* history.swift in Sources */,
 				B739486A229F194000C47603 /* LandmarkDetail.swift in Sources */,
 				B739489F229F2D9700C47603 /* LandmarkRow.swift in Sources */,
 				B7394881229F28B900C47603 /* Landmark.swift in Sources */,
@@ -421,7 +457,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -442,7 +478,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
