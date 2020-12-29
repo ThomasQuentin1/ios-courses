@@ -40,7 +40,7 @@ struct profil: View {
                     }
                     
                 }
-                if (tab == 0) {
+                if (tab == 1) {
                     VStack{
                         List(actualCryptoData){
                             actualRow in

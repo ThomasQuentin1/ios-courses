@@ -37,7 +37,7 @@ struct LandmarkDetail: View {
                         .frame(width: UIScreen.main.bounds.size.width * 0.9, height: 50)
                         .background(Color.green)
                         .cornerRadius(15.0)                   }.sheet(isPresented: $showingBuyModal) {
-                           Buy()
+                           Buy(crypto: landmark)
                        }
          }
             VStack (alignment: .leading){
@@ -88,7 +88,7 @@ struct LandmarkDetail: View {
                     .frame(width: UIScreen.main.bounds.size.width * 0.9, height: 50)
                     .background(Color.red)
                     .cornerRadius(15.0)                   }.sheet(isPresented: $showingBuyModal) {
-                       Sell()
+                       Sell(crypto: landmark)
                    }
                        }
         .navigationBarTitleDisplayMode(.inline)

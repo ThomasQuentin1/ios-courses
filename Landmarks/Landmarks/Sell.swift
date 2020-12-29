@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct Sell: View {
+    var crypto: Landmark
+
     var body: some View {
         Text("Sell")
     }
@@ -16,6 +18,6 @@ struct Sell: View {
 
 struct Sell_Previews: PreviewProvider {
     static var previews: some View {
-        Sell()
+        Sell(crypto: landmarkData[0])
     }
 }
