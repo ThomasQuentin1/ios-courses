@@ -16,7 +16,7 @@ struct Buy: View {
 
     var body: some View {
         VStack (alignment: .center){
-        Text("How Many \(crypto.name) do you want to buy ?")
+        Text("\(Text("HowMany")) \(crypto.name) \(Text("doyouwanttobuy?"))")
         TextField("", text: $quantity)
             .multilineTextAlignment(.center)
              .keyboardType(.numberPad)
@@ -28,9 +28,9 @@ struct Buy: View {
                  }
          }
             if (Int(quantity) == nil || quantity == "0") {
-                Text ("Total : 0 €")
+                Text ("\(Text("Total")) : 0 €")
             } else {
-                Text("Total \(quantity) * \(crypto.price)")
+                Text("\(Text("Total")) \(quantity) * \(crypto.price)")
             }
             Button(action: {
                         self.showingAlert = true
@@ -44,7 +44,7 @@ struct Buy: View {
                             .cornerRadius(15.0)
                     }
                     .alert(isPresented: $showingAlert) {
-                        Alert(title: Text("Important message"), message: Text("Not available"), dismissButton: .default(Text("Got it!")))
+                        Alert(title: Text("Importantmessage"), message: Text("Notavailable"), dismissButton: .default(Text("Gotit")))
                     }
         }
     }

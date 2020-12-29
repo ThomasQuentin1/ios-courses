@@ -8,4 +8,23 @@
 
 "helloworld" = "bonjour";
 "login" = "adresse mail";
+"connection" = "connexion";
 "password" = "mot de passe";
+"actual" = "actuel";
+"history" = "historique";
+"quantity" = "quantité";
+"value" = "valeur";
+"Importantmessage" = "Message important";
+"Notavailable" = "Indisponnible";
+"Gotit" = "Ok";
+"Total" = "Total";
+"buy" = "Acheter";
+"HowMany" = "Combien de ";
+"doyouwanttobuy?" = "voulez vous acheter ?";
+"Low" = "Bas";
+"High" = "Haut";
+"Volume" = "Volume";
+"Circulating" = "En circulation";
+"MarketCap" = "Capacité du marché";
+
+

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct HistoryRow: View {
     var history: History
+    let quantity = LocalizedStringKey("quantity")
+    let value =  LocalizedStringKey("value")
     
     var body: some View {
         HStack {
@@ -19,15 +21,11 @@ struct HistoryRow: View {
             Spacer()
             VStack {
                 if (history.buy) {
-                    Text("quantity: \(history.quantity)").padding(5).foregroundColor(Color.green)
-                    Text("Value: \(history.value)").foregroundColor(Color.green)
-            
-                    
-
+                    Text("\(Text(quantity)): \(history.quantity)").padding(5).foregroundColor(Color.green)
+                    Text("\(Text(value)): \(history.value)").foregroundColor(Color.green)
                 } else {
-                    
-                    Text("quantity: \(history.quantity)").padding(5).foregroundColor(Color.red)
-                    Text("Value: \(history.value)").foregroundColor(Color.red)
+                    Text("\(Text(quantity)): \(history.quantity)").padding(5).foregroundColor(Color.red)
+                    Text("\(Text(value)): \(history.value)").foregroundColor(Color.red)
                 }
             }
         }

@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ActualRow: View {
     var actual: ActualCrypto
-    
+    let quantity = LocalizedStringKey("quantity")
+    let value =  LocalizedStringKey("value")
     var body: some View {
         HStack {
             
@@ -19,8 +20,8 @@ struct ActualRow: View {
             Text(actual.name).bold()
             Spacer()
             VStack {
-                Text("quantity: \(actual.quantity)").padding(5)
-                Text("value: \(actual.value)")
+                Text("\(Text(quantity)) :\(actual.quantity)").padding(5)
+                Text("\(Text(value)): \(actual.value)")
             }
         }
     }

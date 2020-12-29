@@ -30,13 +30,13 @@ struct profil: View {
                     Button(action: {
                         tab = 1
                     }) {
-                        Text("Actual")
+                        Text(LocalizedStringKey("actual"))
                     }
                     Spacer().frame(width: 200)
                     Button(action: {
                         tab = 0
                     }) {
-                        Text("History")
+                        Text(LocalizedStringKey("history"))
                     }
                     
                 }

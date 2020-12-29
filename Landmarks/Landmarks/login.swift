@@ -15,8 +15,6 @@ struct Login: View {
     @State private var login: String = ""
     @State private var pwd: String = ""
     @State private var actionState: ActionState? = .setup
-    let goal: LocalizedStringKey = "helloworld"
-    let cap2:LocalizedStringKey = "helloworld"
 
     var body: some View {
         
@@ -27,14 +25,12 @@ struct Login: View {
                 
                 VStack(alignment: .leading, spacing: 15) {
                     
-                    Text(LocalizedStringKey("password"))
-                    Text(NSLocalizedString("password", comment: ""))
-                    Text(cap2)
-                    TextField("Email", text: self.$login)
+                 
+                    TextField(LocalizedStringKey("login"), text: self.$login)
                         .padding()
                         .cornerRadius(20.0)
                     
-                    SecureField("Password", text: self.$pwd)
+                    SecureField(LocalizedStringKey("password"), text: self.$pwd)
                         .padding()
                         .cornerRadius(20.0)
                 }.padding([.leading, .trailing], 27.5)
@@ -47,7 +43,7 @@ struct Login: View {
                         
                     }
                 }) {
-                    Text("Login")
+                    Text(LocalizedStringKey("connection"))
                         .font(.headline)
                         .foregroundColor(.white)
                         .padding()

@@ -7,3 +7,22 @@
 */
 
 "helloworld" = "gutentag";
+"login" = "Anmeldung";
+"password" = "Passwort";
+"connection" = "Verbindung";
+"actual" = "tatsächlich";
+"history" = "history";
+"quantity" = "Geschichte";
+"value" = "Wert";
+"Importantmessage" = "Wichtige Mitteilung";
+"Notavailable" = "Nicht verfügbar";
+"Gotit" = "Ich habs";
+"Total" = "Gesamt";
+"buy" = "Kaufen";
+"HowMany" = "Wie viele";
+"doyouwanttobuy?" = "Möchten sie kaufen ?";
+"MarketCap" = "Marktkapitalisierung";
+"Low" = "Niedrig";
+"High" = "Hoch";
+"Volume" = "Volumen";
+"Circulating" = "Zirkulieren";
