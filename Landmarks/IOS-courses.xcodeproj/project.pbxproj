@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		290BABF0259A008100058D5A /*  in Resources */ = {isa = PBXBuildFile; fileRef = 290BABEF259A008100058D5A /*  */; };
 		290BABFA259A065B00058D5A /* profilData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BABF9259A065B00058D5A /* profilData.swift */; };
 		290BAC0C259A0AD400058D5A /* ProfilData.json in Resources */ = {isa = PBXBuildFile; fileRef = 290BAC0B259A0AD400058D5A /* ProfilData.json */; };
 		290BAC10259A175300058D5A /* history.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BAC0F259A175300058D5A /* history.swift */; };
@@ -81,7 +80,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		290BABEF259A008100058D5A /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; sourceTree = "<group>"; };
 		290BABF9259A065B00058D5A /* profilData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilData.swift; sourceTree = "<group>"; };
 		290BAC0B259A0AD400058D5A /* ProfilData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProfilData.json; sourceTree = "<group>"; };
 		290BAC0F259A175300058D5A /* history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = history.swift; sourceTree = "<group>"; };
@@ -288,7 +286,6 @@
 		B7394883229F291A00C47603 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				290BABEF259A008100058D5A /*  */,
 				290BAC13259A17D100058D5A /* History.json */,
 				290BAC17259A17D900058D5A /* ActualCrypto.json */,
 				290BAC0B259A0AD400058D5A /* ProfilData.json */,
@@ -463,7 +460,6 @@
 				B739489B229F292F00C47603 /* CryptoData.json in Resources */,
 				290BAC18259A17D900058D5A /* ActualCrypto.json in Resources */,
 				290BAC0C259A0AD400058D5A /* ProfilData.json in Resources */,
-				290BABF0259A008100058D5A /*  in Resources */,
 				29EE28C1258A30F2007E58B0 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,6 +647,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = YUATCS674Z;
 				INFOPLIST_FILE = OneSignalNotification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
@@ -659,7 +656,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -672,6 +670,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = YUATCS674Z;
 				INFOPLIST_FILE = OneSignalNotification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
@@ -680,7 +679,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.test.1.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
