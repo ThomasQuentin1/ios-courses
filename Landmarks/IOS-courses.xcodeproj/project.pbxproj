@@ -18,6 +18,10 @@
 		293FCB3D25A7519D00E60824 /* IOS_COURSESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293FCB3C25A7519D00E60824 /* IOS_COURSESTests.swift */; };
 		2944FEE72575669B008DF8D1 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2944FEE62575669B008DF8D1 /* SwiftUICharts */; };
 		298109D025A5E54A003CA3D5 /* IOS_COURSESUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298109CF25A5E54A003CA3D5 /* IOS_COURSESUITests.swift */; };
+		29890E1925A76A25006AABCA /* logoETHPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29890E1525A76A25006AABCA /* logoETHPNG.png */; };
+		29890E1A25A76A25006AABCA /* logoMoneroPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29890E1625A76A25006AABCA /* logoMoneroPNG.png */; };
+		29890E1B25A76A25006AABCA /* profilPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 29890E1725A76A25006AABCA /* profilPicture.png */; };
+		29890E1C25A76A25006AABCA /* logoBTCPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29890E1825A76A25006AABCA /* logoBTCPNG.png */; };
 		29BF9FF82588EDFD006B82DE /* Buy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF9FF72588EDFD006B82DE /* Buy.swift */; };
 		29BF9FFB2588F4DD006B82DE /* Sell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF9FFA2588F4DD006B82DE /* Sell.swift */; };
 		29EB51902576753F003ECDCC /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB518F2576753F003ECDCC /* login.swift */; };
@@ -94,6 +98,10 @@
 		298109CD25A5E54A003CA3D5 /* IOS-COURSESUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-COURSESUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		298109CF25A5E54A003CA3D5 /* IOS_COURSESUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_COURSESUITests.swift; sourceTree = "<group>"; };
 		298109D125A5E54A003CA3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29890E1525A76A25006AABCA /* logoETHPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoETHPNG.png; sourceTree = "<group>"; };
+		29890E1625A76A25006AABCA /* logoMoneroPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoMoneroPNG.png; sourceTree = "<group>"; };
+		29890E1725A76A25006AABCA /* profilPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilPicture.png; sourceTree = "<group>"; };
+		29890E1825A76A25006AABCA /* logoBTCPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoBTCPNG.png; sourceTree = "<group>"; };
 		29AF374E257E912B00704312 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		29BF9FF72588EDFD006B82DE /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
 		29BF9FFA2588F4DD006B82DE /* Sell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sell.swift; sourceTree = "<group>"; };
@@ -245,9 +253,9 @@
 				B7394869229F194000C47603 /* LandmarkDetail.swift */,
 				29BF9FFA2588F4DD006B82DE /* Sell.swift */,
 				B739487D229F1C0100C47603 /* Supporting Views */,
-				B7394883229F291A00C47603 /* Resources */,
 				B739486B229F194200C47603 /* Assets.xcassets */,
 				B7394870229F194200C47603 /* LaunchScreen.storyboard */,
+				B7394883229F291A00C47603 /* Resources */,
 				B7394873229F194200C47603 /* Info.plist */,
 				B739486D229F194200C47603 /* Preview Content */,
 				29EB518F2576753F003ECDCC /* login.swift */,
@@ -286,6 +294,10 @@
 		B7394883229F291A00C47603 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				29890E1825A76A25006AABCA /* logoBTCPNG.png */,
+				29890E1525A76A25006AABCA /* logoETHPNG.png */,
+				29890E1625A76A25006AABCA /* logoMoneroPNG.png */,
+				29890E1725A76A25006AABCA /* profilPicture.png */,
 				290BAC13259A17D100058D5A /* History.json */,
 				290BAC17259A17D900058D5A /* ActualCrypto.json */,
 				290BAC0B259A0AD400058D5A /* ProfilData.json */,
@@ -453,6 +465,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29890E1B25A76A25006AABCA /* profilPicture.png in Resources */,
 				B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */,
 				B739486F229F194200C47603 /* Preview Assets.xcassets in Resources */,
 				B739486C229F194200C47603 /* Assets.xcassets in Resources */,
@@ -460,6 +473,9 @@
 				B739489B229F292F00C47603 /* CryptoData.json in Resources */,
 				290BAC18259A17D900058D5A /* ActualCrypto.json in Resources */,
 				290BAC0C259A0AD400058D5A /* ProfilData.json in Resources */,
+				29890E1C25A76A25006AABCA /* logoBTCPNG.png in Resources */,
+				29890E1925A76A25006AABCA /* logoETHPNG.png in Resources */,
+				29890E1A25A76A25006AABCA /* logoMoneroPNG.png in Resources */,
 				29EE28C1258A30F2007E58B0 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
