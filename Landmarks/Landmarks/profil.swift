@@ -8,9 +8,57 @@
 
 import SwiftUI
 
+
 struct profil: View {
+    
+    @State var tab = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.vertical) {
+            VStack (alignment: .center){
+                VStack() {
+                    Text("Thomas Quentin").bold()
+                    profilData.image
+                        .resizable()
+                        
+                        .clipShape(Circle())
+                        .overlay(Circle().stroke(Color.white, lineWidth:4))
+                        .shadow(radius: 10)
+                        .scaledToFit()
+                }
+                HStack {
+                    Button(action: {
+                        tab = 1
+                    }) {
+                        Text(LocalizedStringKey("actual"))
+                    }
+                    Spacer().frame(width: 200)
+                    Button(action: {
+                        tab = 0
+                    }) {
+                        Text(LocalizedStringKey("history"))
+                    }
+                    
+                }
+                if (tab == 1) {
+                    VStack{
+                        List(actualCryptoData){
+                            actualRow in
+                            ActualRow(actual: actualRow)
+                        }
+                    }
+                } else {
+                    VStack{
+                        List(historyData){
+                            actualRow in
+                            HistoryRow(history: actualRow)
+                        }
+                    }
+                    
+                }
+            }
+            
+        }
     }
 }
 

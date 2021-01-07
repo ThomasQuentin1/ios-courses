@@ -12,7 +12,7 @@ struct LandmarkDetail: View {
     var landmark: Landmark
     @State var showingBuyModal = false
     @State var showingSellModal = false
-
+    
     var body: some View {
         VStack {
             VStack (alignment: .leading, spacing: 10){
@@ -28,8 +28,8 @@ struct LandmarkDetail: View {
             VStack(alignment: .center ) {
                 
                 Button(action: {
-                           self.showingBuyModal.toggle()
-                       }) {
+                    self.showingBuyModal.toggle()
+                }) {
                     Text("buy")
                         .font(.headline)
                         .foregroundColor(.white)
@@ -37,9 +37,9 @@ struct LandmarkDetail: View {
                         .frame(width: UIScreen.main.bounds.size.width * 0.9, height: 50)
                         .background(Color.green)
                         .cornerRadius(15.0)                   }.sheet(isPresented: $showingBuyModal) {
-                           Buy()
-                       }
-         }
+                            Buy(crypto: landmark)
+                        }
+            }
             VStack (alignment: .leading){
                 
                 Text("Market Cap")
@@ -78,19 +78,24 @@ struct LandmarkDetail: View {
                 }.padding(5)
             } .padding(.leading, 10)
             
-            Button(action: {
-                       self.showingBuyModal.toggle()
-                   }) {
-                Text("sell")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: UIScreen.main.bounds.size.width * 0.9, height: 50)
-                    .background(Color.red)
-                    .cornerRadius(15.0)                   }.sheet(isPresented: $showingBuyModal) {
-                       Sell()
-                   }
-                       }
+            if (landmark.name != "Ethereum") {
+                Button(action: {
+                    self.showingBuyModal.toggle()
+                }) {
+                    Text("sell")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(width: UIScreen.main.bounds.size.width * 0.9, height: 50)
+                        .background(Color.red)
+                        .cornerRadius(15.0)                   }.sheet(isPresented: $showingBuyModal) {
+                            Sell(crypto: landmark)
+                        }
+            } else {
+                Text("Nosell")
+            }
+        }
+        
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .principal) {

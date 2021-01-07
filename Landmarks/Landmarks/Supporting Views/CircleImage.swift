@@ -15,11 +15,14 @@ struct CircleImage: View {
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
             .shadow(radius: 10)
+            
+            .frame(width: 100, height: 100)
+
     }
 }
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage(image: Image("turtlerock"))
+        CircleImage(image: Image("profilPicture"))
     }
 }

@@ -9,3 +9,23 @@
 "helloworld" = "blbl";
 "login" = "login";
 "password" = "password";
+"connection" = "connection";
+"actual" = "actual";
+"history" = "history";
+"quantity" = "quantity";
+"value" = "value";
+"Importantmessage" = "Important message";
+"Notavailable" = "Not available";
+"Gotit" = "Got it";
+"Total" = "Total";
+"buy" = "buy";
+"sell" = "sell";
+"HowMany" = "How Many";
+"doyouwanttobuy?" = "do you want to buy ?";
+"MarketCap" = "Market Cap";
+"Low" = "Low";
+"High" = "High";
+"Volume" = "Volume";
+"Circulating" = "Circulating";
+"Nosell" = "You don't have any Ethereum to sell";
+

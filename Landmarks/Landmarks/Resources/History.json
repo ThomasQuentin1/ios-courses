@@ -1,0 +1,76 @@
+[{
+        "id": 1,
+        "buy": false,
+        "name": "bitcoin",
+        "quantity": "12",
+        "value": "98837€",
+        "imageName": "logoBTCPNG"
+    },
+    {
+        "id": 2,
+        "buy": true,
+        "name": "ETH",
+        "quantity": "2",
+        "value": "521€",
+        "imageName": "logoETHPNG"
+
+    },
+    {
+            "id": 3,
+            "buy": false,
+            "name": "Monero",
+            "quantity": "234",
+            "value": "763€",
+            "imageName": "logoMoneroPNG"
+        },
+    {
+            "id": 1,
+            "buy": false,
+            "name": "bitcoin",
+            "quantity": "12",
+            "value": "98837€",
+            "imageName": "logoBTCPNG"
+        },
+        {
+            "id": 2,
+            "buy": true,
+            "name": "ETH",
+            "quantity": "2",
+            "value": "521€",
+            "imageName": "logoETHPNG"
+
+        },
+        {
+                "id": 3,
+                "buy": false,
+                "name": "Monero",
+                "quantity": "234",
+                "value": "763€",
+                "imageName": "logoMoneroPNG"
+            },
+        {
+                "id": 1,
+                "buy": false,
+                "name": "bitcoin",
+                "quantity": "12",
+                "value": "98837€",
+                "imageName": "logoBTCPNG"
+            },
+            {
+                "id": 2,
+                "buy": true,
+                "name": "ETH",
+                "quantity": "2",
+                "value": "521€",
+                "imageName": "logoETHPNG"
+
+            },
+            {
+                    "id": 3,
+                    "buy": false,
+                    "name": "Monero",
+                    "quantity": "234",
+                    "value": "763€",
+                    "imageName": "logoMoneroPNG"
+                },
+]
