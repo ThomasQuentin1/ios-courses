@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		290BABF0259A008100058D5A /* profilPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 290BABEF259A008100058D5A /* profilPicture.png */; };
 		290BABFA259A065B00058D5A /* profilData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BABF9259A065B00058D5A /* profilData.swift */; };
 		290BAC0C259A0AD400058D5A /* ProfilData.json in Resources */ = {isa = PBXBuildFile; fileRef = 290BAC0B259A0AD400058D5A /* ProfilData.json */; };
 		290BAC10259A175300058D5A /* history.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BAC0F259A175300058D5A /* history.swift */; };
@@ -87,7 +86,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		290BABEF259A008100058D5A /* profilPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profilPicture.png; path = ../../../../../../../Downloads/profilPicture.png; sourceTree = "<group>"; };
 		290BABF9259A065B00058D5A /* profilData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilData.swift; sourceTree = "<group>"; };
 		290BAC0B259A0AD400058D5A /* ProfilData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProfilData.json; sourceTree = "<group>"; };
 		290BAC0F259A175300058D5A /* history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = history.swift; sourceTree = "<group>"; };
@@ -303,7 +301,6 @@
 				29BF9FFD2588F5EC006B82DE /* logoBTCPNG.png */,
 				29BFA0042588F63B006B82DE /* logoETHPNG.png */,
 				29BF9FFF2588F5EC006B82DE /* logoMoneroPNG.png */,
-				290BABEF259A008100058D5A /* profilPicture.png */,
 				29AF3748257E894800704312 /* logoBTC.jpg */,
 				29AF3747257E894800704312 /* logoETH.jpg */,
 				29AF3749257E894800704312 /* logoMONERO.jpg */,
@@ -485,7 +482,6 @@
 				290BAC18259A17D900058D5A /* ActualCrypto.json in Resources */,
 				290BAC0C259A0AD400058D5A /* ProfilData.json in Resources */,
 				29BFA0022588F5ED006B82DE /* logoMoneroPNG.png in Resources */,
-				290BABF0259A008100058D5A /* profilPicture.png in Resources */,
 				29EE28C1258A30F2007E58B0 /* Localizable.strings in Resources */,
 				29AF374B257E894800704312 /* logoBTC.jpg in Resources */,
 				29BFA0052588F63B006B82DE /* logoETHPNG.png in Resources */,
