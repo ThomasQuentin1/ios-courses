@@ -16,7 +16,9 @@
 		290BAC1C259A187C00058D5A /* ActualCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BAC1B259A187C00058D5A /* ActualCrypto.swift */; };
 		290BAC20259A238500058D5A /* HistoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BAC1F259A238500058D5A /* HistoryRow.swift */; };
 		290BAC24259A23AF00058D5A /* ActualRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BAC23259A23AF00058D5A /* ActualRow.swift */; };
+		293FCB3D25A7519D00E60824 /* IOS_COURSESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293FCB3C25A7519D00E60824 /* IOS_COURSESTests.swift */; };
 		2944FEE72575669B008DF8D1 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2944FEE62575669B008DF8D1 /* SwiftUICharts */; };
+		298109D025A5E54A003CA3D5 /* IOS_COURSESUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298109CF25A5E54A003CA3D5 /* IOS_COURSESUITests.swift */; };
 		29AF374A257E894800704312 /* logoETH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AF3747257E894800704312 /* logoETH.jpg */; };
 		29AF374B257E894800704312 /* logoBTC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AF3748257E894800704312 /* logoBTC.jpg */; };
 		29AF374C257E894800704312 /* logoMONERO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AF3749257E894800704312 /* logoMONERO.jpg */; };
@@ -47,6 +49,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		293FCB3F25A7519D00E60824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B739485A229F194000C47603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7394861229F194000C47603;
+			remoteInfo = "IOS-COURSES";
+		};
+		298109D225A5E54A003CA3D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B739485A229F194000C47603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7394861229F194000C47603;
+			remoteInfo = "IOS-COURSES";
+		};
 		29EE28A8258A27D1007E58B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B739485A229F194000C47603 /* Project object */;
@@ -80,6 +96,12 @@
 		290BAC1B259A187C00058D5A /* ActualCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualCrypto.swift; sourceTree = "<group>"; };
 		290BAC1F259A238500058D5A /* HistoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRow.swift; sourceTree = "<group>"; };
 		290BAC23259A23AF00058D5A /* ActualRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRow.swift; sourceTree = "<group>"; };
+		293FCB3A25A7519D00E60824 /* IOS-COURSESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-COURSESTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293FCB3C25A7519D00E60824 /* IOS_COURSESTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_COURSESTests.swift; sourceTree = "<group>"; };
+		293FCB3E25A7519D00E60824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298109CD25A5E54A003CA3D5 /* IOS-COURSESUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-COURSESUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		298109CF25A5E54A003CA3D5 /* IOS_COURSESUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_COURSESUITests.swift; sourceTree = "<group>"; };
+		298109D125A5E54A003CA3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29AF3747257E894800704312 /* logoETH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoETH.jpg; path = ../../../../../../../Downloads/logoETH.jpg; sourceTree = "<group>"; };
 		29AF3748257E894800704312 /* logoBTC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoBTC.jpg; path = ../../../../../../../Downloads/logoBTC.jpg; sourceTree = "<group>"; };
 		29AF3749257E894800704312 /* logoMONERO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoMONERO.jpg; path = ../../../../../../../Downloads/logoMONERO.jpg; sourceTree = "<group>"; };
@@ -119,6 +141,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		293FCB3725A7519D00E60824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298109CA25A5E54A003CA3D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29EE28A0258A27D1007E58B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +182,24 @@
 			name = Configuration;
 			sourceTree = "<group>";
 		};
+		293FCB3B25A7519D00E60824 /* IOS-COURSESTests */ = {
+			isa = PBXGroup;
+			children = (
+				293FCB3C25A7519D00E60824 /* IOS_COURSESTests.swift */,
+				293FCB3E25A7519D00E60824 /* Info.plist */,
+			);
+			path = "IOS-COURSESTests";
+			sourceTree = "<group>";
+		};
+		298109CE25A5E54A003CA3D5 /* IOS-COURSESUITests */ = {
+			isa = PBXGroup;
+			children = (
+				298109CF25A5E54A003CA3D5 /* IOS_COURSESUITests.swift */,
+				298109D125A5E54A003CA3D5 /* Info.plist */,
+			);
+			path = "IOS-COURSESUITests";
+			sourceTree = "<group>";
+		};
 		29EE28A4258A27D1007E58B0 /* OneSignalNotification */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +224,8 @@
 				29EE28B6258A28EA007E58B0 /* IOS-COURSES.entitlements */,
 				C4E4AAA0C4E4035000000001 /* README.md */,
 				B7394864229F194000C47603 /* Landmarks */,
+				298109CE25A5E54A003CA3D5 /* IOS-COURSESUITests */,
+				293FCB3B25A7519D00E60824 /* IOS-COURSESTests */,
 				B7394863229F194000C47603 /* Products */,
 				0BA6BB22EC06EFBEA60A948C /* Configuration */,
 			);
@@ -180,6 +236,8 @@
 			children = (
 				B7394862229F194000C47603 /* IOS-COURSES.app */,
 				29EE28A3258A27D1007E58B0 /* OneSignalNotification.appex */,
+				298109CD25A5E54A003CA3D5 /* IOS-COURSESUITests.xctest */,
+				293FCB3A25A7519D00E60824 /* IOS-COURSESTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -260,6 +318,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		293FCB3925A7519D00E60824 /* IOS-COURSESTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293FCB4125A7519D00E60824 /* Build configuration list for PBXNativeTarget "IOS-COURSESTests" */;
+			buildPhases = (
+				293FCB3625A7519D00E60824 /* Sources */,
+				293FCB3725A7519D00E60824 /* Frameworks */,
+				293FCB3825A7519D00E60824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293FCB4025A7519D00E60824 /* PBXTargetDependency */,
+			);
+			name = "IOS-COURSESTests";
+			productName = "IOS-COURSESTests";
+			productReference = 293FCB3A25A7519D00E60824 /* IOS-COURSESTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		298109CC25A5E54A003CA3D5 /* IOS-COURSESUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298109D425A5E54A003CA3D5 /* Build configuration list for PBXNativeTarget "IOS-COURSESUITests" */;
+			buildPhases = (
+				298109C925A5E54A003CA3D5 /* Sources */,
+				298109CA25A5E54A003CA3D5 /* Frameworks */,
+				298109CB25A5E54A003CA3D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298109D325A5E54A003CA3D5 /* PBXTargetDependency */,
+			);
+			name = "IOS-COURSESUITests";
+			productName = "IOS-COURSESUITests";
+			productReference = 298109CD25A5E54A003CA3D5 /* IOS-COURSESUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		29EE28A2258A27D1007E58B0 /* OneSignalNotification */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29EE28AE258A27D1007E58B0 /* Build configuration list for PBXNativeTarget "OneSignalNotification" */;
@@ -311,6 +405,14 @@
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
+					293FCB3925A7519D00E60824 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B7394861229F194000C47603;
+					};
+					298109CC25A5E54A003CA3D5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B7394861229F194000C47603;
+					};
 					29EE28A2258A27D1007E58B0 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -340,11 +442,27 @@
 			targets = (
 				B7394861229F194000C47603 /* IOS-COURSES */,
 				29EE28A2258A27D1007E58B0 /* OneSignalNotification */,
+				298109CC25A5E54A003CA3D5 /* IOS-COURSESUITests */,
+				293FCB3925A7519D00E60824 /* IOS-COURSESTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		293FCB3825A7519D00E60824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298109CB25A5E54A003CA3D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29EE28A1258A27D1007E58B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,6 +495,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		293FCB3625A7519D00E60824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293FCB3D25A7519D00E60824 /* IOS_COURSESTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298109C925A5E54A003CA3D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298109D025A5E54A003CA3D5 /* IOS_COURSESUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29EE289F258A27D1007E58B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,6 +547,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		293FCB4025A7519D00E60824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7394861229F194000C47603 /* IOS-COURSES */;
+			targetProxy = 293FCB3F25A7519D00E60824 /* PBXContainerItemProxy */;
+		};
+		298109D325A5E54A003CA3D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7394861229F194000C47603 /* IOS-COURSES */;
+			targetProxy = 298109D225A5E54A003CA3D5 /* PBXContainerItemProxy */;
+		};
 		29EE28A9258A27D1007E58B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 29EE28A2258A27D1007E58B0 /* OneSignalNotification */;
@@ -444,6 +588,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		293FCB4225A7519D00E60824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUATCS674Z;
+				INFOPLIST_FILE = "IOS-COURSESTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.IOS-COURSESTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-COURSES.app/IOS-COURSES";
+			};
+			name = Debug;
+		};
+		293FCB4325A7519D00E60824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUATCS674Z;
+				INFOPLIST_FILE = "IOS-COURSESTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.IOS-COURSESTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-COURSES.app/IOS-COURSES";
+			};
+			name = Release;
+		};
+		298109D525A5E54A003CA3D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUATCS674Z;
+				INFOPLIST_FILE = "IOS-COURSESUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.IOS-COURSESUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOS-COURSES";
+			};
+			name = Debug;
+		};
+		298109D625A5E54A003CA3D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUATCS674Z;
+				INFOPLIST_FILE = "IOS-COURSESUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.IOS-COURSESUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOS-COURSES";
+			};
+			name = Release;
+		};
 		29EE28AC258A27D1007E58B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -659,6 +885,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		293FCB4125A7519D00E60824 /* Build configuration list for PBXNativeTarget "IOS-COURSESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293FCB4225A7519D00E60824 /* Debug */,
+				293FCB4325A7519D00E60824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298109D425A5E54A003CA3D5 /* Build configuration list for PBXNativeTarget "IOS-COURSESUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298109D525A5E54A003CA3D5 /* Debug */,
+				298109D625A5E54A003CA3D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		29EE28AE258A27D1007E58B0 /* Build configuration list for PBXNativeTarget "OneSignalNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

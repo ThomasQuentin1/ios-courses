@@ -33,6 +33,7 @@ struct Login: View {
                     SecureField(LocalizedStringKey("password"), text: self.$pwd)
                         .padding()
                         .cornerRadius(20.0)
+                        .accessibilityIdentifier("passwordInput")
                 }.padding([.leading, .trailing], 27.5)
                 
                 Button(action: {
@@ -50,6 +51,8 @@ struct Login: View {
                         .frame(width: 300, height: 50)
                         .background(Color.green)
                         .cornerRadius(15.0)
+                        .accessibility(identifier: "Connection")
+
                 }
             }
             .textFieldStyle(RoundedBorderTextFieldStyle())

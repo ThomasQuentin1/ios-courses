@@ -19,6 +19,7 @@
 "Gotit" = "Got it";
 "Total" = "Total";
 "buy" = "buy";
+"sell" = "sell";
 "HowMany" = "How Many";
 "doyouwanttobuy?" = "do you want to buy ?";
 "MarketCap" = "Market Cap";
@@ -26,4 +27,5 @@
 "High" = "High";
 "Volume" = "Volume";
 "Circulating" = "Circulating";
+"Nosell" = "You don't have any Ethereum to sell";
 

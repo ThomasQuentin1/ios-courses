@@ -5,13 +5,7 @@
         "imageName": "logoBTCPNG",
         "value" :"33827€"
     },
-    {
-        "id": 2,
-        "name": "ETH",
-        "quantity": "3",
-        "imageName": "logoETHPNG",
-        "value" :"3221€"
-    },
+  
     {
         "id": 3,
         "name": "MONERO",
@@ -25,13 +19,6 @@
             "quantity": "12",
             "imageName": "logoBTCPNG",
             "value" :"33827€"
-        },
-        {
-            "id": 2,
-            "name": "ETH",
-            "quantity": "3",
-            "imageName": "logoETHPNG",
-            "value" :"3221€"
         },
         {
             "id": 3,

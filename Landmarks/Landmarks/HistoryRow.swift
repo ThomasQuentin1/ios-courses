@@ -21,11 +21,17 @@ struct HistoryRow: View {
             Spacer()
             VStack {
                 if (history.buy) {
-                    Text("\(Text(quantity)): \(history.quantity)").padding(5).foregroundColor(Color.green)
-                    Text("\(Text(value)): \(history.value)").foregroundColor(Color.green)
+                    Text("\(Text(quantity)): \(history.quantity)")
+                        .bold()
+                        .padding(5)
+                        .foregroundColor(Color.green)
+                    
+                    Text("\(Text(value)): \(history.value)").foregroundColor(Color.green).bold()
                 } else {
-                    Text("\(Text(quantity)): \(history.quantity)").padding(5).foregroundColor(Color.red)
-                    Text("\(Text(value)): \(history.value)").foregroundColor(Color.red)
+                    Text("\(Text(quantity)): \(history.quantity)")
+                        .bold().padding(5).foregroundColor(Color.red)
+                    Text("\(Text(value)): \(history.value)")
+                        .bold().foregroundColor(Color.red)
                 }
             }
         }

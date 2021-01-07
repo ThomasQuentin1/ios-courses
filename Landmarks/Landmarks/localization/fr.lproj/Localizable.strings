@@ -19,6 +19,7 @@
 "Gotit" = "Ok";
 "Total" = "Total";
 "buy" = "Acheter";
+"sell" = "vendre";
 "HowMany" = "Combien de ";
 "doyouwanttobuy?" = "voulez vous acheter ?";
 "Low" = "Bas";
@@ -26,5 +27,6 @@
 "Volume" = "Volume";
 "Circulating" = "En circulation";
 "MarketCap" = "Capacité du marché";
+"Nosell" = "Vous n'avez pas d'Ethereum à vendre";
 
 

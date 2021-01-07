@@ -19,6 +19,7 @@
 "Gotit" = "Ich habs";
 "Total" = "Gesamt";
 "buy" = "Kaufen";
+"sell" = "verkaufen";
 "HowMany" = "Wie viele";
 "doyouwanttobuy?" = "Möchten sie kaufen ?";
 "MarketCap" = "Marktkapitalisierung";
@@ -26,3 +27,5 @@
 "High" = "Hoch";
 "Volume" = "Volumen";
 "Circulating" = "Zirkulieren";
+"Nosell" = "Keine Ethereum to zell";
+

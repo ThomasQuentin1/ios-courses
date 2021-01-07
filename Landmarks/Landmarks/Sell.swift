@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Sell: View {
     var crypto: Landmark
-
+    
     var body: some View {
         Text("Sell")
     }

@@ -20,8 +20,8 @@ struct ActualRow: View {
             Text(actual.name).bold()
             Spacer()
             VStack {
-                Text("\(Text(quantity)) :\(actual.quantity)").padding(5)
-                Text("\(Text(value)): \(actual.value)")
+                Text("\(Text(quantity)) :\(actual.quantity)").bold().padding(5)
+                Text("\(Text(value)): \(actual.value)").bold()
             }
         }
     }
